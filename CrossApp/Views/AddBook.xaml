@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrossApp.Views.AddBook"
+             Title="Add Book">
+    <VerticalStackLayout Spacing="10" Margin="30">
+        <Frame Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Title" VerticalOptions="Center" WidthRequest="100"></Label>
+                <Entry x:Name="entryTitle" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Description" VerticalOptions="Center" WidthRequest="100"></Label>
+                <Entry x:Name="entryAuthor" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Author" VerticalOptions="Center" WidthRequest="100"></Label>
+                <Entry x:Name="entryDescription" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Pages" VerticalOptions="Center" WidthRequest="100"></Label>
+                <Entry x:Name="entryPages" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button x:Name="btnAdd" Text="Add" Clicked="btnAdd_Clicked" Margin="20, 0, 0, 0"></Button>
+        <Button x:Name="btnCancel" Text="Cancel" Clicked="btnCancel_Clicked" Margin="20, 0, 0, 0"></Button>
+    </VerticalStackLayout>
+</ContentPage>

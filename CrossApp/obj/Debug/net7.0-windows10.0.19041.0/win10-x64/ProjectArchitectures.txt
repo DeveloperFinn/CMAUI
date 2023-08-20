@@ -1,0 +1,1 @@
+C:\Users\Gebruiker\source\repos\CrossApp\CrossApp\CrossApp.csproj;x64
